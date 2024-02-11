@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Calculadora</string>
+    <string name="somar">SOMA</string>
+    <string name="subtrair">SUBTRAÇÃO</string>
+    <string name="multiplicar">MULTIPLICAÇÃO</string>
+    <string name="divisao">DIVISÃO</string>
+    <string name="primeiroValor">DIGITE O PRIMEIRO VALOR: </string>
+    <string name="segundoValor">DIGITE O SEGUNDO VALOR: </string>
 </resources>

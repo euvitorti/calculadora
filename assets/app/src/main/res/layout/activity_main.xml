@@ -9,10 +9,88 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/primeiroValor"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/inputPrimeiroValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/segundoValor"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/inputSegundoValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:text="0"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:id="@+id/botaoSoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/somar"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/botaoMultiplicacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicar"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <Button
+        android:id="@+id/botaoSubtracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtrair"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/botaoDivisao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/divisao"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="537dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
