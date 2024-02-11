@@ -10,5 +10,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button btnSoma = (Button)findViewById(R.id.botaoSoma);
+        Button btnSubtrair = (Button)findViewById(R.id.botaoSubtracao);
+        Button btnSMultiplicar = (Button)findViewById(R.id.botaoMultiplicacao);
+        Button btnDividir = (Button)findViewById(R.id.botaoDivisao);
     }
 }
